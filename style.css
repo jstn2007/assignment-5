@@ -93,14 +93,8 @@
   }
   
   /* Apply styles to 'a' elements within the nav-bar class when hovered */
-  .nav-bar a:hover {
-    text-decoration: underline;
-  }
   
   /* Apply styles to 'p' elements within the content class when the parent is hovered */
-  .content:hover p {
-    color: #ff4500; /* Change text color to orange on hover */
-  }
   
   /* Pseudo-elements */
   /* Add a double border above and below the content class */
@@ -141,10 +135,6 @@
     visibility: hidden;
   }
   
-  /* Show the content class when the parent (body) is hovered */
-  body:hover .content {
-    visibility: visible;
-  }
   
   /* Opacity property */
   /* Apply a low opacity to the footer class */
@@ -180,7 +170,7 @@
   }
   
   /* Image filter for the content image */
-  .content img {
+  img {
     filter: grayscale(50%); /* Convert image to grayscale */
   }
   
