@@ -3,12 +3,32 @@
     background-color: #333;
     color: #fff;
     padding: 10px;
+    position:relative;
+    animation: anime 2s;
   }
+
+@keyframes anime{
+    from{ filter:opacity(1); }
+    to{filter: opacity(0);}
+    
+}
   
   /* Apply styles to the content class */
   .content {
     margin: 20px;
   }
+.image{
+    filter:grayscale(50%);
+    margin:5px;
+    padding:10px;
+    width:160px;
+    height:90px;
+}
+.image:hover{
+    width:480px;
+    height:360px;
+}
+
   
   /* Apply styles to the footer class */
   .footer {
