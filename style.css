@@ -1,10 +1,10 @@
 /* Apply styles to the nav-bar class */
 .nav-bar {
-    background-color: #333;
     color: #fff;
     padding: 10px;
     position:relative;
     animation: anime 2s;
+    filter:opacity (1);
   }
 
 @keyframes anime{
@@ -131,9 +131,6 @@
   
 /* Visibility property */
 /* Hide the content class by default */
-.content {
-    visibility: hidden;
-  }
   
   
   /* Opacity property */
@@ -142,13 +139,6 @@
     opacity: 0.8;
   }
   
-  /* Display property */
-  /* Hide the footer class on screens smaller than 600px */
-  @media (max-width: 600px) {
-    .footer {
-      display: none;
-    }
-  }
   
   /* Additional styles... */
   
